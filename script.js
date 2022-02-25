@@ -4,24 +4,24 @@ const button = document.getElementById('button');
 const agree = document.getElementById('agreement');
 const subButton = document.getElementById('submit-btn');
 
-button.addEventListener('click', validarDados);
-
-function validarDados () {
-  if (email.value === "tryber@teste.com" && senha.value === '123456') {
+function validarDados() {
+  if (email.value === 'tryber@teste.com' && senha.value === '123456') {
     alert('Olá, Tryber!');
-  }else {
+  } else {
     alert('Email ou senha inválidos.');
   }
 }
 
-subButton.disabled = true
+button.addEventListener('click', validarDados);
 
-agree.addEventListener('click', habilitaBotao)
+subButton.disabled = true;
 
-function habilitaBotao(){
-  if(agree.checked === false) {
-    subButton.disabled = true
+function habilitaBotao() {
+  if (agree.checked === false) {
+    subButton.disabled = true;
   } else {
-    subButton.disabled = false
+    subButton.disabled = false;
   }
 }
+
+agree.addEventListener('click', habilitaBotao);
