@@ -23,22 +23,21 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+  order: 1;
 }
 
-#teste3{
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-#teste {
+#nomeSobrenome {
   display: flex;
 }
 
-#teste2 {
-  /* width: 370px; */
+#emailCasa {
   display: flex;
-  flex-wrap: wrap;
 }
 
+#rate {
+  display: flex;
+}
 
+#validar {
+  display: flex;
+}
