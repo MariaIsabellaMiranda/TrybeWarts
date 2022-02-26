@@ -15,6 +15,7 @@ function validarDados() {
 }
 button.addEventListener('click', validarDados);
 
+// Site usado como base para elaborar botão: https://www.delftstack.com/pt/howto/javascript/javascript-disable-button/#:~:text=A%20melhor%20maneira%20de%20fazer,alternar%20seu%20estado%20on%20%2F%20off%20.
 subButton.disabled = true;
 
 function habilitaBotao() {
@@ -26,6 +27,8 @@ function habilitaBotao() {
 }
 agree.addEventListener('click', habilitaBotao);
 
+
+// Site usado como base para elaborar contador: https://pt.stackoverflow.com/questions/25753/como-fazer-um-contador-de-caracteres-de-uma-textarea
 function contaCaractere() {
   let quant = 500;
   const total = texto.value.length
@@ -37,3 +40,5 @@ function contaCaractere() {
 }
 
 texto.addEventListener('keyup', contaCaractere);
+
+
