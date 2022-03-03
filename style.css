@@ -39,8 +39,3 @@ main {
 #validar {
   display: flex;
 }
-
-#familaConteudo {
-  display: flex;
-  justify-content: space-between;
-}
