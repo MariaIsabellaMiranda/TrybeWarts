@@ -24,8 +24,8 @@ function validarDados() {
 }
 button.addEventListener('click', validarDados);
 
-// Site usado como base para elaborar botão: https://www.delftstack.com/pt/howto/javascript/javascript-disable-button/#:~:text=A%20melhor%20maneira%20de%20fazer,alternar%20seu%20estado%20on%20%2F%20off%20.
 
+// Site usado como base para elaborar botão: https://www.delftstack.com/pt/howto/javascript/javascript-disable-button/#:~:text=A%20melhor%20maneira%20de%20fazer,alternar%20seu%20estado%20on%20%2F%20off%20.
 subButton.disabled = true;
 
 function habilitaBotao() {
